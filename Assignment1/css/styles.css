@@ -1,0 +1,250 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+}
+/***********************************
+* This code is for the navigation to 
+* be aligned correctly with the logo 
+* using flex
+***********************************/
+.navigation{
+  color: #79706E;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  align-items: center;
+  font-size: 16px;
+}
+.menu{
+  list-style-type: none;
+}
+.menu .item{
+  display: inline-block;
+  margin: 50px 15px;
+}
+.navigation a{
+  color: #79706E;
+  text-decoration: none;
+}
+.navigation .sgnup a{
+  color: #3964FA;
+  font-weight: 900;
+}
+.logo{
+  padding-right: 17rem;
+}
+/*************************
+* First section of content
+**************************/
+.top{
+  background: #ffffff;
+  height: 490px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+main .desc1{
+  width: 437px;
+  height: 107px;
+  left: 94px;
+  top: 169px;
+  flex-direction: column;
+  line-height: 50px;
+}
+main .desc1 .hdrButton{
+  border-color: #FB7852;
+  color: #ffffff;
+  background-color:#FB7852;
+  border-radius: 16px;
+  border-width: 3px;
+  border-style: solid;
+  width: 339px;
+  height: 48px;
+  font-size: 18px;
+  margin-top: 2rem;
+  cursor: pointer;
+
+}
+.hhdr{
+  font-weight: 800;
+  font-size: 48px;
+  color: #2A0E05;
+}
+.phdr{
+  line-height: 30px;
+  font-size: 18px;
+  color: #79706E;
+  width: 437px;
+  height: 99px;
+  left: 94px;
+  top: 299px;
+  margin-top: 2rem;
+  font-weight: 400;
+}
+.hdrImg{
+  margin: 0 -99px;
+}
+/*************************
+* Second section of content
+**************************/
+.mid1{
+  background: #ffffff;
+  width: 899px;
+  height: 182px;
+  left: 190px;
+  top: 698px;
+  margin-top: 7rem;
+  margin-bottom: 5rem;
+}
+.hmiddle1{
+  width: 899px;
+  height: 55px;
+  left: 190px;
+  top: 698px;
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 50px;
+  text-align: center;
+  color: #2A0E05;
+}
+.pmiddle1{
+  margin-top: 2rem;
+  text-align: center;
+  width: 730px;
+  height: 99px;
+  left: 275px;
+  top: 781px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #79706E;
+}
+/*************************
+* Third section of content
+**************************/
+.mid2{
+  margin-top: 7rem;
+  background: #ffffff;
+  width: 1070px;
+  height: 567px;
+  left: 105px;
+  top: 964px;
+  margin-bottom: 5rem;
+}
+.hmiddle2{
+  width: 510px;
+  height: 59px;
+  left: 105px;
+  top: 1386px;
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 50px;
+  text-align: center;
+  margin-top: 2.5rem;
+  color: #2A0E05;
+}
+.pmiddle2{
+  margin-top: 1rem;
+  text-align: center;
+  width: 415px;
+  height: 74px;
+  left: 152px;
+  top: 1457px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #79706E;
+}
+.desc3{
+  display: flex;
+}
+.midImg2{
+  padding-left: 3rem;
+}
+/*************************
+* Fourth section of content
+**************************/
+.mid3{
+  margin-top: 10rem;
+}
+.desc4{
+  display: flex;
+  flex-flow: row;
+}
+.hmiddle3{
+  width: 437px;
+  height: 107px;
+  left: 738px;
+  top: 1772px;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 50px;
+  color: #2A0E05;
+}
+.pmiddle3{
+  width: 437px;
+  height: 99px;
+  left: 738px;
+  top: 1902px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #79706E;
+}
+main .mid3 .midButton{
+  border-color: #FB7852;
+  color: #FB7852;
+  background-color:#ffffff;
+  border-radius: 16px;
+  border-width: 3px;
+  border-style: solid;
+  width: 339px;
+  height: 48px;
+  font-size: 18px;
+  margin-top: 2rem;
+  cursor: pointer;
+  left: 738px;
+  top: 2032px;
+
+}
+/***********
+* Footer Row
+************/
+footer{
+  margin-top: 7rem;
+  background: #FB7852;
+  height: 490px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+footer .desc6{
+  margin-top: 7rem;
+  flex-direction: column;
+}
+footer .desc6 .ftrButton{
+  border-color: #ffffff;
+  color: #ffffff;
+  background-color:#FB7852;
+  border-radius: 16px;
+  border-width: 3px;
+  border-style: solid;
+  width: 280px;
+  height: 48px;
+  font-size: 18px;
+  margin-top: 2rem;
+  cursor: pointer;
+
+}
+.hftr{
+  font-size: 42px;
+  color: #ffffff;
+}
+.pftr{
+  margin-top: 2rem;
+  font-size: 18px;
+  color: #ffffff;
+  height: 75px;
+  width: 366px;
+  line-height: 30px;
+}
