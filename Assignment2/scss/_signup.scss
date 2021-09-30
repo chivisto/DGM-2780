@@ -86,6 +86,7 @@ form {
     border-color: $button-color;
     color: $background-color;
     background-color: $button-color;
+    text-decoration: none;
     @include button($width: 339px);
   }
 
