@@ -1,0 +1,560 @@
+/*******
+* COLORS
+********/
+/*******
+* FONTS
+*******/
+/***********
+* 5 MIXIN's
+***********/
+/*******
+* COLORS
+********/
+/*******
+* FONTS
+*******/
+/***********
+* 5 MIXIN's
+***********/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+  /*************************************************************************
+  * HOME PAGE CSS STARTS HERE
+  **************************************************************************/
+  /***********************************
+  * This code is for the navigation to 
+  * be aligned correctly with the logo 
+  * using flex
+  ***********************************/
+  /*************************
+  * First section of content
+  **************************/
+  /*************************
+  * Second section of content
+  **************************/
+  /*************************
+  * Third section of content
+  **************************/
+  /*************************
+  * Fourth section of content
+  **************************/
+  /***********
+  * Footer Row
+  ************/
+}
+
+* .navigation {
+  color: #79706E;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-decoration: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+}
+
+* .menu {
+  list-style-type: none;
+}
+
+* .menu .item {
+  display: inline-block;
+  margin: 50px 15px;
+}
+
+* .navigation a {
+  color: #79706E;
+  text-decoration: none;
+}
+
+* .navigation .sgnup a {
+  color: #3964FA;
+  font-weight: 900;
+}
+
+* .logo {
+  padding-right: 17rem;
+}
+
+* .top {
+  background: #ffffff;
+  height: 490px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+* .desc1 {
+  width: 437px;
+  height: 107px;
+  left: 94px;
+  top: 169px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  line-height: 50px;
+}
+
+* .hdrButton {
+  border-color: #FB7852;
+  color: #ffffff;
+  background-color: #FB7852;
+  border-radius: 16px;
+  border-width: 3px;
+  border-style: solid;
+  width: 339px;
+  height: 48px;
+  font-size: 18px;
+  margin-top: 2rem;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+}
+
+* .hhdr {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 48px;
+  color: #2A0E05;
+}
+
+* .phdr {
+  font-family: "Open Sans", sans-serif;
+  line-height: 30px;
+  font-size: 18px;
+  color: #79706E;
+  width: 437px;
+  height: 99px;
+  left: 94px;
+  top: 299px;
+  margin-top: 2rem;
+  font-weight: 400;
+}
+
+* .hdrImg {
+  margin: 0 -99px;
+}
+
+* .mid1 {
+  background: #ffffff;
+  width: 899px;
+  height: 182px;
+  left: 190px;
+  top: 698px;
+  margin-top: 7rem;
+  margin-bottom: 5rem;
+}
+
+* .hmiddle1 {
+  font-family: "Nunito Sans", sans-serif;
+  text-align: center;
+  width: 899px;
+  height: 55px;
+  left: 190px;
+  top: 698px;
+  font-size: 38px;
+  line-height: 50px;
+  color: #2A0E05;
+}
+
+* .pmiddle1 {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 2rem;
+  text-align: center;
+  width: 730px;
+  height: 99px;
+  left: 275px;
+  top: 781px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #79706E;
+}
+
+* .mid2 {
+  background: #ffffff;
+  width: 1070px;
+  height: 567px;
+  left: 105px;
+  top: 964px;
+  margin-top: 7rem;
+  margin-bottom: 5rem;
+}
+
+* .hmiddle2 {
+  font-family: "Nunito Sans", sans-serif;
+  text-align: center;
+  width: 510px;
+  height: 59px;
+  left: 105px;
+  top: 1386px;
+  font-size: 38px;
+  line-height: 50px;
+  color: #2A0E05;
+  margin-top: 2.5rem;
+}
+
+* .pmiddle2 {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 2rem;
+  text-align: center;
+  width: 415px;
+  height: 74px;
+  left: 152px;
+  top: 1457px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #79706E;
+}
+
+* .desc3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+* .midImg2 {
+  padding-left: 3rem;
+}
+
+* .mid3 {
+  margin-top: 10rem;
+}
+
+* .desc4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+}
+
+* .hmiddle3 {
+  font-family: "Nunito Sans", sans-serif;
+  text-align: left;
+  width: 437px;
+  height: 107px;
+  left: 738px;
+  top: 1772px;
+  font-size: 38px;
+  line-height: 50px;
+  color: #2A0E05;
+}
+
+* .pmiddle3 {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 2rem;
+  text-align: left;
+  width: 437px;
+  height: 99px;
+  left: 738px;
+  top: 1902px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #79706E;
+}
+
+* .midButton {
+  border-color: #FB7852;
+  color: #FB7852;
+  background-color: #ffffff;
+  border-radius: 16px;
+  border-width: 3px;
+  border-style: solid;
+  width: 339px;
+  height: 48px;
+  font-size: 18px;
+  margin-top: 2rem;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+}
+
+* footer {
+  margin-top: 7rem;
+  background: #FB7852;
+  height: 490px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+* .desc6 {
+  margin-top: 7rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+* .ftrButton {
+  border-color: #ffffff;
+  color: #ffffff;
+  background-color: #FB7852;
+  border-radius: 16px;
+  border-width: 3px;
+  border-style: solid;
+  width: 280px;
+  height: 48px;
+  font-size: 18px;
+  margin-top: 2rem;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+}
+
+* .hftr {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 42px;
+  color: #ffffff;
+}
+
+* .pftr {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 2rem;
+  font-size: 18px;
+  color: #ffffff;
+  height: 75px;
+  width: 366px;
+  line-height: 30px;
+}
+
+/*************************************************************************
+* SIGN UP PAGE CSS STARTS HERE
+**************************************************************************/
+form {
+  border-radius: 16px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #FB7852;
+  margin-top: 5.5rem;
+  -webkit-box-shadow: 5px 7px 7px rgba(0, 0, 0, 0.2);
+          box-shadow: 5px 7px 7px rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  width: 50vw;
+  height: auto;
+  font-family: "Open Sans", sans-serif;
+  color: #79706E;
+}
+
+form input {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 35px 0;
+  display: inline-block;
+  border-radius: 16px;
+  border-style: solid;
+  border-width: auto;
+  border-color: #FB7852;
+  background-color: #ffffff;
+}
+
+form label {
+  font-family: "Nunito Sans", sans-serif;
+  color: #2A0E05;
+}
+
+form .break {
+  margin-bottom: 1rem;
+}
+
+form .hdr1 {
+  font-family: "Open Sans", sans-serif;
+  color: #3964FA;
+}
+
+form .registerbtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-color: #ffffff;
+  color: #ffffff;
+  background-color: #FB7852;
+  padding-top: .5rem;
+  border-radius: 16px;
+  border-width: 3px;
+  border-style: solid;
+  width: 500px;
+  height: 48px;
+  font-size: 18px;
+  margin-top: 1rem;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+}
+
+form .registerbtn:hover {
+  opacity: 0.9;
+}
+
+form .signin {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+form .terms {
+  margin: 1rem;
+  margin-left: 0rem;
+}
+
+form .slabel {
+  margin-top: 1rem;
+}
+
+/*************************
+  * First section of content
+  **************************/
+.top {
+  background: #ffffff;
+  height: 490px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.top .desc1 {
+  width: 437px;
+  height: 107px;
+  left: 94px;
+  top: 169px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  line-height: 50px;
+}
+
+.top .hdrButton {
+  border-color: #FB7852;
+  color: #ffffff;
+  background-color: #FB7852;
+  border-radius: 16px;
+  border-width: 3px;
+  border-style: solid;
+  width: 339px;
+  height: 48px;
+  font-size: 18px;
+  margin-top: 2rem;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+}
+
+.top .hhdr {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 48px;
+  color: #2A0E05;
+}
+
+.top .phdr {
+  font-family: "Open Sans", sans-serif;
+  line-height: 30px;
+  font-size: 18px;
+  color: #79706E;
+  width: 437px;
+  height: 99px;
+  left: 94px;
+  top: 299px;
+  margin-top: 2rem;
+  font-weight: 400;
+}
+
+.top .hdrImg {
+  margin: 0 -99px;
+}
+
+/***********
+  * Footer Row
+  ************/
+footer {
+  margin-top: 9rem;
+  background: #FB7852;
+  height: 490px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+footer .desc6 {
+  margin-top: 7rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .ftrButton {
+  border-color: #ffffff;
+  color: #ffffff;
+  background-color: #FB7852;
+  border-radius: 16px;
+  border-width: 3px;
+  border-style: solid;
+  width: 280px;
+  height: 48px;
+  font-size: 18px;
+  margin-top: 2rem;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+}
+
+footer .hftr {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 42px;
+  color: #ffffff;
+}
+
+footer .pftr {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 2rem;
+  font-size: 18px;
+  color: #ffffff;
+  height: 75px;
+  width: 366px;
+  line-height: 30px;
+}
+
+.privacy {
+  color: #79706E;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 1rem;
+  text-align: center;
+  margin-bottom: 5rem;
+  text-decoration: underline;
+}
+
+/**********************************************
+@media only screen and (min-width: 35rem) {
+    @import "_medium.scss";
+} 
+
+@media only screen and (min-width: 80rem) {
+    @import "_large.scss";
+} 
+**********************************************/
+/*# sourceMappingURL=styles.css.map */
