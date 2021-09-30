@@ -1,0 +1,213 @@
+@import "_variables.scss";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 auto;
+  font-family: $font1;
+
+  /*************************************************************************
+  * HOME PAGE CSS STARTS HERE
+  **************************************************************************/
+  /***********************************
+  * This code is for the navigation to 
+  * be aligned correctly with the logo 
+  * using flex
+  ***********************************/
+  .navigation {
+    color: $base-color;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    align-items: center;
+    font-size: 16px;
+  }
+
+  .menu {
+    list-style-type: none;
+  }
+
+  .menu {
+    .item {
+      display: inline-block;
+      margin: 50px 15px;
+    }
+  }
+
+  .navigation {
+    a {
+      color: $base-color;
+      text-decoration: none;
+    }
+  }
+
+  .navigation {
+    .sgnup {
+      a {
+        color: #3964FA;
+        font-weight: 900;
+      }
+    }
+  }
+
+  .logo {
+    padding-right: 17rem;
+  }
+
+  /*************************
+  * First section of content
+  **************************/
+  .top {
+    background: $background-color;
+    height: 490px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .desc1 {
+    width: 437px;
+    height: 107px;
+    left: 94px;
+    top: 169px;
+    flex-direction: column;
+    line-height: 50px;
+  }
+
+  .hdrButton {
+    border-color: $button-color;
+    color: $background-color;
+    background-color: $button-color;
+    @include button($width: 339px);
+  }
+
+  .hhdr {
+    font-family: $font2;
+    font-size: 48px;
+    color: $header-color;
+  }
+
+  .phdr {
+    font-family: $font1;
+    line-height: 30px;
+    font-size: 18px;
+    color: $base-color;
+    width: 437px;
+    height: 99px;
+    left: 94px;
+    top: 299px;
+    margin-top: 2rem;
+    font-weight: 400;
+  }
+
+  .hdrImg {
+    margin: 0 -99px;
+  }
+
+  /*************************
+  * Second section of content
+  **************************/
+  .mid1 {
+    @include mids($background-color, 899px, 182px, 190px, 698px, 7rem, 5rem);
+  }
+
+  .hmiddle1 {
+    @include headers($width: 899px, $height: 55px, $left: 190px, $top: 698px);
+  }
+
+  .pmiddle1 {
+    @include paragraphs($width: 730px, $height: 99px, $left: 275px, $top: 781px);
+  }
+
+  /*************************
+  * Third section of content
+  **************************/
+  .mid2 {
+    @include mids($background-color, 1070px, 567px, 105px, 964px, 7rem, 5rem);
+  }
+
+  .hmiddle2 {
+    @include headers($width: 510px, $height: 59px, $left: 105px, $top: 1386px);
+    margin-top: 2.5rem;
+  }
+
+  .pmiddle2 {
+    @include paragraphs($width: 415px, $height: 74px, $left: 152px, $top: 1457px);
+  }
+
+  .desc3 {
+    display: flex;
+  }
+
+  .midImg2 {
+    padding-left: 3rem;
+  }
+
+  /*************************
+  * Fourth section of content
+  **************************/
+  .mid3 {
+    margin-top: 10rem;
+  }
+
+  .desc4 {
+    display: flex;
+    flex-flow: row;
+  }
+
+  .hmiddle3 {
+    @include headers($width: 437px, $height: 107px, $left: 738px, $top: 1772px, $talign: left);
+  }
+
+  .pmiddle3 {
+    @include paragraphs($talign: left, $width: 437px, $height: 99px, $left: 738px, $top: 1902px);
+  }
+
+  .midButton {
+    border-color: $button-color;
+    color: $button-color;
+    background-color: $background-color;
+    @include button($width: 339px);
+  }
+
+  /***********
+  * Footer Row
+  ************/
+  footer {
+    margin-top: 7rem;
+    background: $button-color;
+    height: 490px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .desc6 {
+    margin-top: 7rem;
+    flex-direction: column;
+  }
+
+  .ftrButton {
+    border-color: $background-color;
+    color: $background-color;
+    background-color: $button-color;
+    @include button($width: 280px);
+  }
+
+  .hftr {
+    font-family: $font2;
+    font-size: 42px;
+    color: $background-color;
+  }
+
+  .pftr {
+    font-family: $font1;
+    margin-top: 2rem;
+    font-size: 18px;
+    color: $background-color;
+    height: 75px;
+    width: 366px;
+    line-height: 30px;
+  }
+}
