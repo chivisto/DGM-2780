@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+
+body{
+    background-color: #181818;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.search {
+    position: relative;
+    margin-top: 5rem;
+    margin-right: 6rem;
+}
+
+.search input {
+    height: 32px;
+    text-indent: 25px;
+    border: 2px solid #d6d4d4;
+    border-radius: 50px;
+    background-color: #242424;
+}
+
+.search input:focus {
+    box-shadow: none;
+    border: 2px solid #595959;
+}
+
+.search .fa-search {
+    color: $font-color;
+    position: absolute;
+    top: 7px;
+    left: 16px;
+}
+
+.logo{
+    margin-top: 2rem;
+}
+
+.account{
+    color: $font-color;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 14px;
+    margin-top: 5rem;
+    a {
+        color: $font-color;
+        text-decoration: none; /* no underline */
+      }
+      a:hover{
+          color: white;
+      }
+      .shp-crt{
+        padding-left: 1rem;
+        font-size: 1.5rem;
+    }
+    .acctitm{
+        padding-left: 2rem;
+    }
+}
+
+.navbar{
+    background-color: $nav-srch-color;
+    height: 42px;
+    font-weight: bold;
+    .nav-item{
+        padding-left: 2rem;
+    }
+    .nav-link{
+        color: #FFFFFF;
+        width: 106px;
+        text-align: center;
+    }
+    .nav-link:hover{
+        color: $font-color;
+    }
+    .nav-link.active{
+        background-color: $orange-color;
+        height: 100%;
+    }
+}
+
+.carousel{
+    margin: 0 auto;
+    margin-top: 3rem;
+    width: 1177px;
+    height: 537.6px;
+    margin-bottom: 5rem;
+}
+
+.breaker{
+    background-color: $orange-color;
+    height: 40px;
+    width: 1177px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+.shpbrkr{
+    padding-top: 9px;
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.midcontent{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+
+    .midright{
+        margin-left: 1rem;
+    }
+}
+
+.midhero{
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    width: 1177px;
+    height: 537.6px;
+}
+
+.ftrhero{
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    width: 1177px;
+    height: 394px;
+}
+
+.ftrnav{
+    color: white;
+    background-color: transparent;
+    height: 42px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.dropdown-menu{
+    background-color: $orange-color;
+    color: $white-color;
+    .dropdown-item{
+        color: $white-color;
+    }
+}
+.dropdown-item:hover{
+    background-color: $white-color;
+    color: $orange-color;
+}
+
+.dark-mode {
+    background-color: $white-color;
+    color: $orange-color;
+    .account{
+        color: $orange-color;
+        a {
+            color: $orange-color;
+          }
+          a:hover{
+              color: $nav-srch-color;
+          }
+    }
+    .search input {
+        border: 2px solid $white-color;
+        background-color: $orange-color;
+    }
+    
+    .search input:focus {
+        border: 2px solid $orange-color;
+    }
+    
+    .search .fa-search {
+        color: $white-color;
+    }
+
+    .ftrnav .nav-item .nav-link{
+        color: $orange-color;
+        background-color: transparent;
+    }
+  }

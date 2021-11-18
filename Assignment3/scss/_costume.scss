@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+
+body{
+    background-color: #181818;
+    font-family: Roboto;
+    overflow-x:hidden;
+
+}
+
+.search {
+    position: relative;
+    margin-top: 5rem;
+    margin-right: 6rem;
+}
+
+.search input {
+    height: 32px;
+    text-indent: 25px;
+    border: 2px solid #d6d4d4;
+    border-radius: 50px;
+    background-color: #242424;
+}
+
+.search input:focus {
+    box-shadow: none;
+    border: 2px solid #595959;
+}
+
+.search .fa-search {
+    color: $font-color;
+    position: absolute;
+    top: 7px;
+    left: 16px;
+}
+
+.logo{
+    margin-top: 2rem;
+}
+
+.account{
+    color: $font-color;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 14px;
+    margin-top: 5rem;
+    a {
+        color: $font-color;
+        text-decoration: none; /* no underline */
+      }
+      a:hover{
+          color: $white-color;
+      }
+      .shp-crt{
+        padding-left: 1rem;
+        font-size: 1.5rem;
+    }
+    .acctitm{
+        padding-left: 2rem;
+    }
+}
+
+.navbar{
+    background-color: $nav-srch-color;
+    height: 42px;
+    font-weight: bold;
+    .nav-item{
+        padding-left: 2rem;
+    }
+    .nav-link{
+        color: #FFFFFF;
+        width: 106px;
+        text-align: center;
+    }
+    .nav-link:hover{
+        color: $font-color;
+    }
+    .nav-link.active{
+        background-color: $orange-color;
+        height: 100%;
+    }
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.breaker{
+    background-color: $orange-color;
+    height: 40px;
+    width: 1177px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+.shpbrkr{
+    padding-top: 9px;
+    color: $white-color;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.midcontent{
+    text-align: center;
+}
+
+.costumes{
+    margin-bottom: 3rem;   
+}
+
+.shpimgs{
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+    border: 0px;
+    transition: transform .2s;
+}
+
+.shopbtn{
+    background-color: $orange-color;
+    color: $white-color;
+    padding: 3px;
+    margin-top: .5rem;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 5px;
+    border: 0px;
+    font-weight: 400;
+}
+
+.shopbtn:hover{
+    background-color: $white-color;
+    color: $orange-color;
+}
+
+.orngbar{
+    height: 5px;
+}
+
+.midhero{
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    width: 1177px;
+    height: 537.6px;
+}
+
+.ftrhero{
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    width: 1177px;
+    height: 394px;
+}
+
+.ftrnav{
+    color: $white-color;
+    background-color: transparent;
+    height: 42px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+.close {
+    color: $white-color;
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    text-align: center;
+    padding: 2px 16px;
+    background-color: $orange-color;
+    color: $white-color;
+}
+
+.modal-body {
+    display: flex;
+    justify-content: center;
+    background-color: #181818;
+}
+
+.mcontent{
+    text-align: center;
+    color: $white-color;
+}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: $orange-color;
+    color: white;
+}
+
+.mimages{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    border-radius: 5px;
+    transition: transform .2s;
+}
+
+.cstcap{
+    text-align: center;
+    margin-left: 2rem;
+    margin-top: .7rem;
+}
+
+.mimages:hover{
+    cursor: pointer;
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1); 
+}
+
+.cstfig{
+    margin-top: .3rem;
+    margin-right: 45%;
+}
+
+.dark-mode {
+    background-color: $white-color;
+    color: $orange-color;
+    .account{
+        color: $orange-color;
+        a {
+            color: $orange-color;
+          }
+          a:hover{
+              color: $nav-srch-color;
+          }
+    }
+    
+    .search input {
+        border: 2px solid $white-color;
+        background-color: $orange-color;
+    }
+    
+    .search input:focus {
+        border: 2px solid $orange-color;
+    }
+    
+    .search .fa-search {
+        color: $white-color;
+    }
+
+    .ftrnav .nav-item .nav-link{
+        color: $orange-color;
+        background-color: transparent;
+    }
+
+    .modal-header {
+        background-color: $orange-color;
+        color: $white-color;
+    }
+    
+    .modal-body {
+        background-color: $white-color;
+    }
+    
+    .mcontent{
+        color: $nav-srch-color;
+    }
+
+    .mimages{
+        border: 1px solid $nav-srch-color;
+    }
+  }
