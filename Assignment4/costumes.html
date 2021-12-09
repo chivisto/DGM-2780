@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="icon" href="/images/rprlogo.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Costumes</title>
+</head>
+
+<body>
+    <script src="https://kit.fontawesome.com/44d1721d3c.js" crossorigin="anonymous"></script>
+    <header>
+        <div class="container">
+            <div class="hdr row">
+                <div class="col-sm-2 col-md-4 col-lg-4">
+                    <div class="search">
+                        <i class="fa fa-search"></i>
+                        <input type="text" class="form-control" placeholder="Search website">
+                    </div>
+                </div>
+                <div class="logo col-sm-2 col-md-4 col-lg-3">
+                    <img src="/images/logo.png" alt="logo">
+                </div>
+                <div class="account col-lg-5">
+                    <a href="#">Find Store</a>
+                    <a class="acctitm" href="#">My Orders</a>
+                    <a class="acctitm" href="#">My Account</a>
+                    <a class="acctitm" href="#"><i class="shp-crt fa fa-shopping-cart" aria-hidden="true"></i></a>
+                    <a class="acctitm" href="#"><i class="fas fa-sun" onclick="myFunction()"
+                            id="suncon"></i></button></a>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-sm bg-dark justify-content-center">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="/costumes.html">Costumes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Decorations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Animatronics</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/accessories.html">Accessories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Games</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Themes</a>
+                </li>
+                <li class="nav-item">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle nav-link" type="button" id="dropdownMenu2"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            On Sale
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                            <li><button class="dropdown-item" type="button">Costumes</button></li>
+                            <li><button class="dropdown-item" type="button">Accessories</button></li>
+                            <li><button class="dropdown-item" type="button">Everything Else</button></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Bootstrap PLUGINS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+            </script>
+
+        <!-- GSAP PLUGINS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollToPlugin.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/Draggable.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/EaselPlugin.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/MotionPathPlugin.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/PixiPlugin.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/TextPlugin.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/EasePack.min.js"></script>
+
+        <div class="hero col-sm-12 col-md-12 col-lg-12 herosap">
+            <img src="/images/costumes/chero.png" alt="heroimg">
+        </div>
+
+        <div class="col-sm-4 col-md-6 col-lg-12 breaker">
+            <p class="shpbrkr">SHOP MOST POPULAR GAMES</p>
+        </div>
+
+        <div class="col-sm-6 col-md-6 col-lg-8 midcontent trigger1">
+            <div class="midright col-lg-4">
+                <img class="shpimgs" src="/images/costumes/c1.jpg" alt="chuckycostumes">
+                <div>
+                    <button class="shopbtn modal-button" href="#myModal1">
+                        VIEW THEMES
+                    </button>
+                </div>
+            </div>
+            <div class="midright col-lg-4">
+                <img class="shpimgs" src="/images/costumes/c2.jpg" alt="fell the beat">
+                <div>
+                    <button class="shopbtn modal-button" href="#myModal2">
+                        VIEW MENS
+                    </button>
+                </div>
+            </div>
+            <div class="midright col-lg-4">
+                <img class="shpimgs" src="/images/costumes/c3.jpg" alt="fell the beat">
+                <div>
+                    <button class="shopbtn modal-button" href="#myModal3">
+                        VIEW WOMANS
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-12 col-lg-8 midcontent trigger2">
+            <div class="midright col-lg-4">
+                <img class="shpimgs" src="/images/costumes/c4.jpg" alt="chuckycostumes">
+                <div>
+                    <button class="shopbtn modal-button" href="#myModal4">
+                        VIEW SALE
+                    </button>
+                </div>
+            </div>
+            <div class="midright col-lg-4">
+                <img class="shpimgs" src="/images/costumes/c5.jpg" alt="feel the beat">
+                <div>
+                    <button class="shopbtn modal-button" href="#myModal5">
+                        VIEW KIDS
+                    </button>
+                </div>
+            </div>
+            <div class="midright col-lg-4">
+                <img class="shpimgs" src="/images/costumes/c6.jpg" alt="fell the beat">
+                <div>
+                    <button class="shopbtn modal-button" href="#myModal6">
+                        VIEW COUPLES
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+        <div class="col-sm-4 col-md-6 col-lg-12 breaker orngbar">
+            <p class=""></p>
+        </div>
+
+        <div class="col-sm-12 col-md-12 col-lg-12 midcontent ftrhero">
+            <div>
+                <img style="width: 580px;" src="/images/footerImgs/ftr1.jpg" alt="chuckycostumes">
+            </div>
+            <div class="midright">
+                <img style="width: 580px;" src="/images/footerImgs/ftr2.jpg" alt="fell the beat">
+            </div>
+        </div>
+
+
+        <!-- ALL MODALS START HERE -->
+
+        <!-- The Modal -->
+        <div id="myModal1" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">×</span>
+                    <h2 class="cstfig">THEMES</h2>
+                </div>
+                <div class="modal-body">
+                    <div class="mcontent">
+                        <img class="mimages" src="/images/costumes/themes/t1.jpg" alt="animal">
+                        <h5 class="cstcap">ANIMAL COSTUMES</h5>
+                    </div>
+                    <div class="mcontent">
+                        <img class="mimages" src="/images/costumes/themes/t2.jpg" alt="cat">
+                        <h5 class="cstcap">CAT COSTUMES</h5>
+                    </div>
+                    <div class="mcontent">
+                        <img class="mimages" src="/images/costumes/themes/t3.jpg" alt="clown">
+                        <h5 class="cstcap">CLOWN COSTUMES</h5>
+                    </div>
+                    <div class="mcontent">
+                        <img class="mimages" src="/images/costumes/themes/t4.jpg" alt="food">
+                        <h5 class="cstcap">FOOD COSTUMES</h5>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+
+        </div>
+        <!-- The Modal -->
+        <div id="myModal2" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">×</span>
+                    <h2 class="cstfig">MENS</h2>
+                </div>
+                <div class="modal-body">
+                    <div class="mcontent">
+                        <img class="mimages" src="/images/costumes/mens/m1.jpg" alt="hi">
+                        <h5 class="cstcap">SPIDER MAN</h5>
+                    </div>
+                    <div class="mcontent">
+                        <img class="mimages" src="/images/costumes/mens/m2.jpg" alt="hi">
+                        <h5 class="cstcap">SHARK MAN</h5>
+                    </div>
+                    <div class="mcontent">
+                        <img class="mimages" src="/images/costumes/mens/m3.jpg" alt="hi">
+                        <h5 class="cstcap">SHAGGY</h5>
+                    </div>
+                    <div class="mcontent">
+                        <img class="mimages" src="/images/costumes/mens/m4.jpg" alt="hi">
+                        <h5 class="cstcap">SCREAM</h5>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+
+        </div>
+
+        <!-- The Modal -->
+        <div id="myModal3" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">×</span>
+                    <h2 class="cstfig">WOMANS</h2>
+                </div>
+                <div class="modal-body">
+                    <div class="mcontent">
+                        <img class="mimages" src="/images/costumes/womans/w1.jpg" alt="Harley">
+                        <h5 class="cstcap">HEROS / VILLANS</h5>
+                    </div>
+                    <div class="mcontent">
+                        <img class="mimages" src="/images/costumes/womans/w2.jpg" alt="Cheer">
+                        <h5 class="cstcap">CLASSICS</h5>
+                    </div>
+                    <div class="mcontent">
+                        <img class="mimages" src="/images/costumes/womans/w3.jpg" alt="Space Suit">
+                        <h5 class="cstcap">SPACE SUIT</h5>
+                    </div>
+                    <div class="mcontent">
+                        <img class="mimages" src="/images/costumes/womans/w4.jpg" alt="Vampire">
+                        <h5 class="cstcap">VAMPIRE</h5>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+
+        <!-- The Modal -->
+        <div id="myModal4" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">×</span>
+                    <h2 class="cstfig">SALE</h2>
+                </div>
+                <div class="modal-body">
+                    <div class="mcontent">
+                        <img class="mimages" src="/images/costumes/sale/s1.jpg" alt="Spongebob">
+                        <h5 class="cstcap">SPONGEBOB</h5>
+                    </div>
+                    <div class="mcontent">
+                        <img class="mimages" src="/images/costumes/sale/s2.jpg" alt="BirdFace">
+                        <h5 class="cstcap">BIRD MASK</h5>
+                    </div>
+                    <div class="mcontent">
+                        <img class="mimages" src="/images/costumes/sale/s3.jpg" alt="M&M">
+                        <h5 class="cstcap">M&M SUIT</h5>
+                    </div>
+                    <div class="mcontent">
+                        <img class="mimages" src="/images/costumes/sale/s4.jpg" alt="TellyTubs">
+                        <h5 class="cstcap">TELLY TUBBYS</h5>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+
+        <!-- The Modal -->
+        <div id="myModal5" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">×</span>
+                    <h2 class="cstfig">KIDS</h2>
+                </div>
+                <div class="modal-body">
+                    <div class="mcontent">
+                        <img class="mimages" src="/images/costumes/kids/k1.jpg" alt="Scary Clown">
+                        <h5 class="cstcap">SCARY CLOWN</h5>
+                    </div>
+                    <div class="mcontent">
+                        <img class="mimages" src="/images/costumes/kids/k3.jpg" alt="Spiderman">
+                        <h5 class="cstcap">SPIDERMAN</h5>
+                    </div>
+                    <div class="mcontent">
+                        <img class="mimages" src="/images/costumes/kids/k2.jpg" alt="Chuky">
+                        <h5 class="cstcap">CHUCKY</h5>
+                    </div>
+                    <div class="mcontent">
+                        <img class="mimages" src="/images/costumes/kids/k4.jpg" alt="Jack Skeleton">
+                        <h5 class="cstcap">JACK</h5>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+
+        <!-- The Modal -->
+        <div id="myModal6" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">×</span>
+                    <h2 class="cstfig">COUPLES</h2>
+                </div>
+                <div class="modal-body">
+                    <div class="mcontent">
+                        <img class="mimages" src="/images/costumes/couples/c1.jpg" alt="Avocado">
+                        <h5 class="cstcap">AVOCADO</h5>
+                    </div>
+                    <div class="mcontent">
+                        <img class="mimages" src="/images/costumes/couples/c2.jpg" alt="IT">
+                        <h5 class="cstcap">IT</h5>
+                    </div>
+                    <div class="mcontent">
+                        <img class="mimages" src="/images/costumes/couples/c3.jpg" alt="Boxing">
+                        <h5 class="cstcap">BOXING</h5>
+                    </div>
+                    <div class="mcontent">
+                        <img class="mimages" src="/images/costumes/couples/c4.jpg" alt="Harley Joker">
+                        <h5 class="cstcap">HARLEY & JOKER</h5>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <nav class="navbar navbar-expand-sm ftrnav justify-content-center">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Costumes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Decorations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Animatronics</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Accessories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Games</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Themes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">One Sale</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script>
+        //Toggle Dark Mode
+        function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+        }
+
+        //Bring in nav on load from the left of screen
+        gsap.timeline()
+            .from(".navbar ul", { xPercent: 100, duration: .5, ease: "power1" });
+
+        //Bring in images from the right of screen
+        const trig1 = gsap.utils.toArray('.trigger1');
+        trig1.forEach(trg1 => {
+            const anim = gsap.from(trg1, { x: 500, paused: true });
+
+            ScrollTrigger.create({
+                trigger: trg1,
+                start: "center 100%",
+                onEnter: () => anim.play()
+            });
+
+            ScrollTrigger.create({
+                trigger: trg1,
+                start: "top bottom",
+                onLeaveBack: self => self.disable()
+            });
+        });
+
+        //Bring in images from the left of screen
+        const trig2 = gsap.utils.toArray('.trigger2');
+        trig2.forEach(trg2 => {
+            const anim = gsap.from(trg2, { x: -500, paused: true });
+
+            ScrollTrigger.create({
+                trigger: trg2,
+                start: "center 100%",
+                onEnter: () => anim.play()
+            });
+
+            ScrollTrigger.create({
+                trigger: trg2,
+                start: "top bottom",
+                onLeaveBack: self => self.disable()
+            });
+        });
+
+        //Fade in mid hero images
+        const hero = gsap.utils.toArray('.herosap');
+        hero.forEach(heros => {
+            const anim = gsap.from(heros, { opacity: 0, paused: true, duration: 3 });
+
+            ScrollTrigger.create({
+                trigger: heros,
+                onEnter: () => anim.play()
+            });
+
+            ScrollTrigger.create({
+                trigger: heros,
+                onLeaveBack: self => self.disable()
+            });
+        });
+
+        //Fade in footer hero images
+        const ftrhero = gsap.utils.toArray('.ftrhero');
+        ftrhero.forEach(ftrheros => {
+            const anim = gsap.from(ftrheros, { opacity: 0, paused: true, duration: 3 });
+
+            ScrollTrigger.create({
+                trigger: ftrheros,
+                onEnter: () => anim.play()
+            });
+
+            ScrollTrigger.create({
+                trigger: ftrheros,
+                onLeaveBack: self => self.disable()
+            });
+        });
+
+        // Tween that makes the Sun Spin
+        var sun = document.getElementById('suncon')
+
+        TweenMax.to(sun, 8, { rotation: "360", ease: Linear.easeNone, repeat: -1 });
+
+
+        // Get the button that opens the modal
+        var btn = document.querySelectorAll("button.modal-button");
+
+        // All page modals
+        var modals = document.querySelectorAll('.modal');
+
+        // Get the <span> element that closes the modal
+        var spans = document.getElementsByClassName("close");
+
+        // When the user clicks the button, open the modal
+        for (var i = 0; i < btn.length; i++) {
+            btn[i].onclick = function (e) {
+                e.preventDefault();
+                modal = document.querySelector(e.target.getAttribute("href"));
+                modal.style.display = "block";
+            }
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        for (var i = 0; i < spans.length; i++) {
+            spans[i].onclick = function () {
+                for (var index in modals) {
+                    if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";
+                }
+            }
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target.classList.contains('modal')) {
+                for (var index in modals) {
+                    if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";
+                }
+            }
+        }
+    </script>
+
+</body>
+
+</html>
